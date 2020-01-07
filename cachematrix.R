@@ -1,5 +1,5 @@
 makeCacheMatrix <- function(the_metrix = matrix()) {
-  inv <- NULL
+  invert_metrix <- NULL
   set <- function(new_value) {
     the_metrix <<- new_value
     invert_metrix <<- NULL
